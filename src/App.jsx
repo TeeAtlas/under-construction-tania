@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Import icons
-import "./styles.css";
+import "./index.css";
 
 export default function app() {
   return (
