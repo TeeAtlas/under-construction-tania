@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Import icons
 import "./styles.css";
 
-export default function App() {
+export default function app() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 text-center">
       <h1 className="text-xl md:text-2xl font-bold">Hello, I'm Tania and I'm Under Construction</h1>
