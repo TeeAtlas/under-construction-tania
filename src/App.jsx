@@ -35,12 +35,12 @@ export default function App() {
           <FaEnvelope className="h-4 w-4 md:h-6 md:w-6" />
         </a>
       </nav>
-    <footer>
-      <p className="mt-4 text-sm md:text-base">
-  My email: <span className="text-blue-500">taniaboterman@gmail.com</span>
-</p>
-    </footer>
+      <footer>
+        <p className="mt-4 text-sm md:text-base">
+          My email:{" "}
+          <span className="text-blue-500">taniaboterman@gmail.com</span>
+        </p>
+      </footer>
     </div>
-
   );
 }
