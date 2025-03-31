@@ -38,7 +38,7 @@ export default function App() {
       <footer>
         <p className="mt-4 text-sm md:text-base">
           My email:{" "}
-          <span className="text-blue-500">taniaboterman@gmail.com</span>
+          <span className= "text-gray-600">taniaboterman@gmail.com</span>
         </p>
       </footer>
     </div>
