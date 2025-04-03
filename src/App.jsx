@@ -2,17 +2,16 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Import icons
 import "./styles.css";
 
-export default function App() {
+export default function app() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 text-center">
-      <h1 className="text-xl md:text-2xl font-bold">Hello, I'm Tania</h1>
-      <h1 className="text-xl md:text-2xl font-bold mb-4">
-        🚧 I'm Under Construction 🚧
-      </h1>
-      <img src="../assets/sun.jpg" alt="Sun" className="rounded-lg " />
-      <p className="mt-4 text-sm md:text-base">
+      <h1 className="text-xl md:text-2xl font-bold">Hello, I'm Tania and I'm Under Construction</h1>
+      <p className="mt-1 text-sm md:text-base">
         Please follow the links for more information :)
       </p>
+      <h1 className="text-xl md:text-2xl font-bold mb-4">
+      </h1>
+      <img src="/assets/sun.jpg" alt="Sun" className="rounded-lg " />
 
       {/* Navigation Links */}
       <nav className="flex mt-2 gap-2 md:gap-4">
@@ -36,8 +35,7 @@ export default function App() {
         </a>
       </nav>
       <footer>
-        <p className="mt-4 text-sm md:text-base">
-          My email:{" "}
+        <p className="text-sm md:text-base">
           <span className= "text-gray-600">taniaboterman@gmail.com</span>
         </p>
       </footer>
