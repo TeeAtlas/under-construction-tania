@@ -11,7 +11,7 @@ export default function app() {
       </p>
       <h1 className="text-xl md:text-2xl font-bold mb-4">
       </h1>
-      <img src="/assets/sun.jpg" alt="Sun" className="rounded-lg " />
+      <img src="/public/assets/sun.jpg" alt="Sun" className="rounded-lg " />
 
       {/* Navigation Links */}
       <nav className="flex mt-2 gap-2 md:gap-4">
